@@ -1,7 +1,7 @@
 {
   "name": "skeletor-project",
   "version": "1.0.0",
-  "description": "Skeletor wireframe theme by Agência Inbound",
+  "description": "Skeletor wireframe theme by Agência ",
   "main": "gulpfile.js",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.1.1",
@@ -30,7 +30,7 @@
     "type": "git",
     "url": "git+https://rmatuoka@bitbucket.org/agenciainbound/"
   },
-  "author": "rafael@agenciainbound.com.br",
+  "author": "",
   "license": "ISC",
   "homepage": "https://gitlab.com"
 }
