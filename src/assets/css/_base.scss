@@ -1,0 +1,85 @@
+* {
+  outline: none !important;
+}
+
+body,html{
+  font-family: $base-font; 
+  font-size: $base-font-size;
+  color: $base-color;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+ul{
+  padding:0px;
+  margin:0px;
+}
+
+main {}
+
+section {
+  position: relative;
+}
+
+.page-center {
+  max-width: $container-width;
+  margin: 0 auto;
+}
+
+.page-center-sm {
+  max-width: $container-width-sm;
+  margin: 0 auto;
+}
+
+.dnd-section > .row-fluid {
+  max-width: $container-width;
+}
+
+.dnd-section,
+.page-center--vertical-spacing {}
+
+.dnd-section>.row-fluid {}
+
+
+.slick-prev,
+.slick-next {
+  
+  &:before {
+    color:$base-color;
+  }
+}
+
+.slick-prev {
+  
+}
+
+.slick-next {
+  &:before {}
+}
+
+h3.documentation{
+  margin:0px;
+  padding:5px 0px;
+  background-color:$primary-color;
+  color:$accent-color;
+}
+
+@media (max-width:768px) {
+  .slick-prev,
+  .slick-next {
+    display: none !important;
+  }
+
+  .slick-dots {
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .container-fluid{
+    padding-left:15px;
+    padding-right:15px;
+  }
+}

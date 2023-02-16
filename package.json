@@ -1,0 +1,36 @@
+{
+  "name": "skeletor-project",
+  "version": "1.0.0",
+  "description": "Skeletor wireframe theme by Agência Inbound",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.1",
+    "@hubspot/cli": "^3.0.12",
+    "@hubspot/cms-cli": "^2.2.3",
+    "animate.css": "~4.1.0",
+    "aos": "~2.3.4",
+    "axios": "~0.21.1",
+    "gulp-concat": "~2.6.1",
+    "gulp-css": "~0.1.0",
+    "gulp-image": "~6.2.1",
+    "gulp-uglify-es": "~2.0.0",
+    "slick-carousel": "~1.8.1"
+  },
+  "devDependencies": {
+    "@fancyapps/fancybox": "~3.5.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.51.0",
+    "sassdoc": "^2.7.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://rmatuoka@bitbucket.org/agenciainbound/"
+  },
+  "author": "rafael@agenciainbound.com.br",
+  "license": "ISC",
+  "homepage": "https://gitlab.com"
+}

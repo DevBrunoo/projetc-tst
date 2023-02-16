@@ -1,0 +1,59 @@
+[ {
+  "id" : "1090ebd8-a75d-ef68-3c9e-ec34bf618a8c",
+  "name" : "animation_settings",
+  "display_width" : null,
+  "label" : "Animation Settings",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "34ec3de5-29bd-e65d-928a-cfb107f75cbf",
+    "name" : "aos_animation",
+    "display_width" : null,
+    "label" : "AOS Animation",
+    "required" : false,
+    "locked" : false,
+    "display" : "select",
+    "choices" : [ [ "none", "none" ], [ "fade-up", "fade-up" ], [ "fade-down", "fade-down" ], [ "fade-left", "fade-left" ], [ "fade-right", "fade-right" ] ],
+    "type" : "choice"
+  }, {
+    "id" : "5cb921b1-16c0-cd98-590d-cb4de7af5ec8",
+    "name" : "aos_delay",
+    "display_width" : null,
+    "label" : "AOS Delay",
+    "required" : false,
+    "locked" : false,
+    "display" : "text",
+    "step" : 1,
+    "suffix" : "miliseconds",
+    "type" : "number"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : { }
+}, {
+  "id" : "9470efc0-98ec-04d5-5269-a8460bbf8c0b",
+  "name" : "cta_field",
+  "display_width" : null,
+  "label" : "CTA",
+  "required" : false,
+  "locked" : false,
+  "type" : "cta"
+}, {
+  "id" : "550ee3bb-db86-49bc-d981-031180c43c2a",
+  "name" : "image_field",
+  "display_width" : null,
+  "label" : "Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "",
+    "alt" : null,
+    "loading" : "lazy"
+  }
+} ]

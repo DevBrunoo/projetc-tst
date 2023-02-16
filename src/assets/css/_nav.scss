@@ -1,0 +1,51 @@
+////
+/// This is a poster comment.
+/// It will apply annotations to all items from file.
+/// @group Template
+/// @author Rafael Matuoka
+////
+
+/// Header
+header{
+  .topbar{
+    padding:10px 0px;
+    background-color:$secondary-minus-1-color;
+
+    .topbar-left-column{
+      
+    }
+
+    .topbar-right-column{
+      
+    }
+
+    ul{
+      text-align: right;
+      li{
+        display:inline-block;
+
+        &:after{
+          content:"|";
+          display: inline-block;
+          margin:0px 5px;
+        }
+
+        &:last-child::after{
+          content:none;
+        }
+
+        a{
+          color:$primary-color;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  
+}
+
+@media screen and (max-width: 479px) {
+  
+}

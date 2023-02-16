@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+/* ======================================================================================================================================================================
+                                                                                    PLUGINS
+   ====================================================================================================================================================================== */
+@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "node_modules/aos/src/sass/aos.scss";
+@import "node_modules/slick-carousel/slick/slick.scss";
+
+/*Vendors*/
+@import "vendors/jquery.flipster.scss";
+@import "vendors/slick-theme.scss";
+
+/*Configuration & base components*/
+@import "_variables.scss";
+@import "_typograph.scss";
+@import "_spacing.scss";
+@import "_form.scss";
+@import "buttons.scss";
+
+/*Layout*/
+@import "_base.scss";
+@import "_nav.scss";
+@import "_footer.scss";
+
+
+/*Modules*/
+@import "_global_modules.scss";
+
+/*Utilities*/
+@import "_utilities.scss";

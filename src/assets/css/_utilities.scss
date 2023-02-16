@@ -1,0 +1,127 @@
+////
+/// This is a poster comment.
+/// It will apply annotations to all items from file.
+/// @group Utilities
+/// @author Rafael Matuoka
+////
+
+/// Positioning
+.relative{position: relative;}
+
+/// Spacings
+.margin-top-0 { margin-top: 0; }
+.margin-top-10 { margin-top: 10px; }
+.margin-top-20 { margin-top: 20px; }
+.margin-top-30 { margin-top: 30px; }
+.margin-top-40 { margin-top: 40px; }
+.margin-top-45 { margin-top: 45px; }
+.margin-top-50 { margin-top: 50px; }
+.margin-top-60 { margin-top: 60px; }
+.margin-top-70 { margin-top: 70px; }
+.margin-top-80 { margin-top: 80px; }
+.margin-top-90 { margin-top: 90px; }
+.margin-top-100 { margin-top: 100px; }
+.margin-top-150 { margin-top: 150px; }
+.margin-top-200 { margin-top: 200px; }
+.margin-bottom-0 { margin-bottom: 0; }
+.margin-bottom-10 { margin-bottom: 10px; }
+.margin-bottom-20 { margin-bottom: 20px; }
+.margin-bottom-30 { margin-bottom: 30px; }
+.margin-bottom-40 { margin-bottom: 40px; }
+.margin-bottom-50 { margin-bottom: 50px; }
+.margin-bottom-60 { margin-bottom: 60px; }
+.margin-bottom-70 { margin-bottom: 70px; }
+.margin-bottom-80 { margin-bottom: 80px; }
+.margin-bottom-90 { margin-bottom: 90px; }
+.margin-bottom-100 { margin-bottom: 100px; }
+.margin-bottom-150 { margin-bottom: 150px; }
+.margin-bottom-200 { margin-bottom: 200px; }
+.padding-horizontal-0   { padding-left: 0;     padding-right: 0; }
+.padding-horizontal-10  { padding-left: 10px;  padding-right: 10px; }
+.padding-horizontal-20  { padding-left: 20px;  padding-right: 20px; }
+.padding-horizontal-30  { padding-left: 30px;  padding-right: 30px; }
+.padding-horizontal-40  { padding-left: 40px;  padding-right: 40px; }
+.padding-horizontal-50  { padding-left: 50px;  padding-right: 50px; }
+.padding-horizontal-60  { padding-left: 60px;  padding-right: 60px; }
+.padding-horizontal-70  { padding-left: 70px;  padding-right: 70px; }
+.padding-horizontal-80  { padding-left: 80px;  padding-right: 80px; }
+.padding-horizontal-90  { padding-left: 90px;  padding-right: 90px; }
+.padding-horizontal-100 { padding-left: 100px; padding-right: 100px; }
+.padding-vertical-0   { padding-top: 0;     padding-bottom: 0; }
+.padding-vertical-10  { padding-top: 10px;  padding-bottom: 10px; }
+.padding-vertical-20  { padding-top: 20px;  padding-bottom: 20px; }
+.padding-vertical-30  { padding-top: 30px;  padding-bottom: 30px; }
+.padding-vertical-40  { padding-top: 40px;  padding-bottom: 40px; }
+.padding-vertical-50  { padding-top: 50px;  padding-bottom: 50px; }
+.padding-vertical-60  { padding-top: 60px;  padding-bottom: 60px; }
+.padding-vertical-70  { padding-top: 70px;  padding-bottom: 70px; }
+.padding-vertical-80  { padding-top: 80px;  padding-bottom: 80px; }
+.padding-vertical-90  { padding-top: 90px;  padding-bottom: 90px; }
+.padding-vertical-100 { padding-top: 100px; padding-bottom: 100px; }
+.padding-top-0 { padding-top: 0; }
+.padding-top-10 { padding-top: 10px; }
+.padding-top-20 { padding-top: 20px; }
+.padding-top-30 { padding-top: 30px; }
+.padding-top-40 { padding-top: 40px; }
+.padding-top-50 { padding-top: 50px; }
+.padding-top-60 { padding-top: 60px; }
+.padding-top-70 { padding-top: 70px; }
+.padding-top-80 { padding-top: 80px; }
+.padding-top-90 { padding-top: 90px; }
+.padding-top-100 { padding-top: 100px; }
+.padding-right-0 { padding-right: 0; }
+.padding-right-10 { padding-right: 10px; }
+.padding-right-20 { padding-right: 20px; }
+.padding-right-30 { padding-right: 30px; }
+.padding-right-40 { padding-right: 40px; }
+.padding-right-50 { padding-right: 50px; }
+.padding-right-60 { padding-right: 60px; }
+.padding-right-70 { padding-right: 70px; }
+.padding-right-80 { padding-right: 80px; }
+.padding-right-90 { padding-right: 90px; }
+.padding-right-100 { padding-right: 100px; }
+.padding-bottom-0 { padding-bottom: 0; }
+.padding-bottom-10 { padding-bottom: 10px; }
+.padding-bottom-20 { padding-bottom: 20px; }
+.padding-bottom-30 { padding-bottom: 30px; }
+.padding-bottom-40 { padding-bottom: 40px; }
+.padding-bottom-50 { padding-bottom: 50px; }
+.padding-bottom-60 { padding-bottom: 60px; }
+.padding-bottom-70 { padding-bottom: 70px; }
+.padding-bottom-80 { padding-bottom: 80px; }
+.padding-bottom-90 { padding-bottom: 90px; }
+.padding-bottom-100 { padding-bottom: 100px; }
+.padding-left-0 { padding-left: 0; }
+.padding-left-10 { padding-left: 10px; }
+.padding-left-20 { padding-left: 20px; }
+.padding-left-30 { padding-left: 30px; }
+.padding-left-40 { padding-left: 40px; }
+.padding-left-50 { padding-left: 50px; }
+.padding-left-60 { padding-left: 60px; }
+.padding-left-70 { padding-left: 70px; }
+.padding-left-80 { padding-left: 80px; }
+.padding-left-90 { padding-left: 90px; }
+.padding-left-100 { padding-left: 100px; }
+
+/// Text
+.text-left{text-align: left !important;}
+.text-center{text-align: center !important;}
+.text-right{text-align: right !important;}
+
+/// Flex
+.align-items-center{
+   align-items: center;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+   
+}
+
+@media screen and (max-width: 479px) {
+   .align-items-center{
+      display: inline-block;
+   }
+}

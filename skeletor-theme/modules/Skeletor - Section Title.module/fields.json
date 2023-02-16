@@ -1,0 +1,43 @@
+[ {
+  "id" : "1090ebd8-a75d-ef68-3c9e-ec34bf618a8c",
+  "name" : "animation_settings",
+  "display_width" : null,
+  "label" : "Animation Settings",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "34ec3de5-29bd-e65d-928a-cfb107f75cbf",
+    "name" : "aos_animation",
+    "display_width" : null,
+    "label" : "AOS Animation",
+    "required" : false,
+    "locked" : false,
+    "display" : "select",
+    "choices" : [ [ "none", "none" ], [ "fade-up", "fade-up" ], [ "fade-down", "fade-down" ], [ "fade-left", "fade-left" ], [ "fade-right", "fade-right" ] ],
+    "type" : "choice"
+  }, {
+    "id" : "5cb921b1-16c0-cd98-590d-cb4de7af5ec8",
+    "name" : "aos_delay",
+    "display_width" : null,
+    "label" : "AOS Delay",
+    "required" : false,
+    "locked" : false,
+    "display" : "text",
+    "step" : 1,
+    "suffix" : "miliseconds",
+    "type" : "number"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : { }
+}, {
+  "id" : "7b32d94f-3f8b-8c8b-8137-99240783cd39",
+  "name" : "content",
+  "display_width" : null,
+  "label" : "Content",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<h2 style=\"text-align: center;\">Lorem ipsum dolor sit amet</h2>\n<p style=\"text-align: center;\"><span>Product suite and positioning: the what and for who. Sed tempus elementum nibh ut pretium. Nullam aliquam gravida metus, porttitor aliquet mauris volutpat a. Morbi quis volutpat ligula. Praesent arcu lacus, varius ut nulla vitae, ultricies tempor urna. Sed venenatis cursus varius. Nulla ac erat accumsan, auctor urna sed, pulvinar nisl.</span></p>"
+} ]
